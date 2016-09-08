@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin-bottom:0px;
+}
+.jumbotron{
+	background-image:url("yolosweg.jpg");
+	background-repeat:repeat-x;
+	height:500px;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+#nav{
+	background-color:#238ae1;
+	text-align:center;
+}
+.jumbotron>*{
+	position:relative;
+	top:50px;
+}
+.title{
+	color:white;
+	font-size:70px;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#button{
+	color:white;
+	position:relative;
+	top:30px;
+}
+
+.quote{
+	text-align:center;
+	background:#333333;
+	height:100px;
+}
+
+#quote{
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+}
