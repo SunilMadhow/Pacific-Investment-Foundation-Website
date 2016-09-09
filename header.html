@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>Pacific Investment Foundation</title>
+	<link rel="shortcut icon" href="icon.png">
+	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!--bootstrap and stuff-->
+	<!--fonts-->
+	</head>
+
+
+<table>
+	<tr><td>
+		<!--BEGIN HEADER-->
+		<div id="header">
+			<div id="headernarrower">
+				<div id="titleandlogo">
+					<!--Text and Logo animated-->
+					<!--Left aligned-->
+					<!--TODO: Get the font working for the title...
+					(may require moving the logo around in css file)-->
+					<span title="TODO: Change font...">
+					PACIFIC
+					<br>
+					INVESTING
+					<br>
+					FOUNDATION
+					</span>
+					<!--Floated to correct position and size-->
+
+					<div id="logo"></div>
+				</div>
+				<!--Active will be set by a script based on current URL-->
+				<div id="bar">
+					<a href="home.html" class="button">Home</a>
+					<a href="contribute.html" class="button">Contribute</a>
+					<a href="raffle.html" class="button">Raffle (Closed)</a>
+				</div>
+				<!--Script can go wherever it wants now, but it has grown accustomed to this spot.  It has even made a few friends!-->
+				<script>
+//Sorry for strange indentaion... this just makes it look nicer in chrome
+//Get all links in the menu bar
+var aObj = document.getElementById('bar').getElementsByTagName('a');
+//For each...
+for(i=0;i<aObj.length;++i) {
+	//Test to see f the link is in the current address
+	if(document.location.href.indexOf(aObj[i].href)>=0) {
+		//If it is, make that button active.
+		aObj[i].className+=' active';
+  	//Our work here is done!
+		break;
+	}
+}
+//If the button was found, it will now be active
+				</script>
+			</div>
+		</div>
+		<!--END HEADER-->
+	</td></tr>
+	<tr><td>
+		<!--START OCEAN WITH DONATE BUTTON-->
+
+		<!--END OCEAN WITH DONATE BUTTON-->
+	</td></tr>
+	<tr><td>
+		<!--START Panel1 WITH DONATE BUTTON-->
+
+		<!--END Panel1 WITH DONATE BUTTON-->
+	</td></tr>
+	<tr><td>
+		<!--START Panel2 WITH DONATE BUTTON-->
+
+		<!--END Panel2 WITH DONATE BUTTON-->
+	</td></tr>
+	<tr><td>
+		<!--START Panel3 WITH DONATE BUTTON-->
+
+		<!--END Panel3 WITH DONATE BUTTON-->
+	</td></tr>
+	<tr><td>
+		<!--START Panel4 WITH DONATE BUTTON-->
+
+		<!--END Panel4 WITH DONATE BUTTON-->
+	</td></tr>
+</table>
