@@ -1,0 +1,29 @@
+.panel{
+  display: block;
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#panel1{
+  background-color: gray;
+}
+
+#panel2{
+
+    background-color: lightgray;
+}
+
+#panel3{
+
+    background-color: darkgray;
+}
+
+#panel4{
+
+    background-color: gray;
+}
+
+#footer{
+  background-color: #EEEEEE;
+}
