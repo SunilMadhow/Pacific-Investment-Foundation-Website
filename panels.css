@@ -8,6 +8,20 @@
 
 #panel1{
   background-color: gray;
+  height:200px;
+}
+
+.panel-title{
+  font-size:60px;
+  color:white;
+  position:absolute;
+  top:50%;
+}
+
+.panel-para{
+  color:white;
+  position:absolute;
+  top:50%;
 }
 
 #panel2{

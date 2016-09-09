@@ -7,7 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="panels.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="jumbotron.css">
-	<!--bootstrap and stuff-->
+	<!--bootstrap and stuff STOP REMOVING IT-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 	<!--fonts-->
 	<!--Open Sans font for the jumbotron-->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -64,7 +68,7 @@ for(i=0;i<aObj.length;++i) {
 	</td></tr>
 	<tr><td>
 		<!--START OCEAN WITH DONATE BUTTON-->
-		<div style="display:flex;justify-content:center;align-items:center;" id="jumbotron" class="jumbotron vertical-center">
+		<div style="display:flex;justify-content:center;align-items:center;" id="jumbotron" class="jumbotron vertical-center" id="jumbotron">
 				<div class="container">
 					<h1 id="title">Stawp the horrible puns on investing 2k16.</h1>
 					<button id="button" type="button" class="btn btn-outline-primary">Contribute</button>
@@ -75,13 +79,27 @@ for(i=0;i<aObj.length;++i) {
 	<tr><td>
 		<!--START Panel1-->
 		<div class="panel" id="panel1">
-
+			<!--using bootstrap positioning-->
+			<div class="row">
+			<!--row sets everything in one row-->
+				<div class="container">
+					<div class="col-md-4">
+					<!--take up 1/3 w/title-->
+						<h2 class="panel-title">Lorem</h2>
+					</div>
+					<!--take up 2/3 with paragraph-->
+					<div class="col-md-8">
+						<p class="panel-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique officiis, maxime accusamus voluptatibus cum iusto cupiditate repellat porro ratione aperiam consequuntur impedit, at culpa. Iusto dicta, libero ut enim magnam! aperiam consequuntur impedit, at culpa. Iusto dicta, libero ut enim magnam! aperiam consequuntur impedit, at culpa. Iusto dicta, libero ut enim magnam!</p>
+				</div>
+				</div>
+			</div>
 		</div>
 		<!--END Panel1-->
 	</td></tr>
 	<tr><td>
 		<!--START Panel2 -->
 		<div class="panel" id="panel2">
+
 		</div>
 		<!--END Panel2-->
 	</td></tr>

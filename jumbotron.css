@@ -21,6 +21,11 @@
 	padding:35px;
 }
 
+#jumbotron{
+	padding:0px;
+	margin:0px;
+}
+
 .jumbotron #button{
 	color:white;
 	font-family: Arial;
