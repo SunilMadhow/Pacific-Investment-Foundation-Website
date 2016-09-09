@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.jumbotron{
+	text-align:center;
+	background-image:url('background_ocean.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:600px;
+}
+
+
+
+.jumbotron #title{
+	color:white;
+	text-shadow: 0px 2px 4px black;
+	font-size:75px;
+}
+
+.jumbotron #button{
+	color:white;
+	font-family: Arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	width:150px;
+	height:53px; /*(menu_bar_height - border*2) to make outside of button same size as the menu bar*/
+
+	border:3px solid white;
+	background-color:rgba(2247, 247, 247, 0);
+	transition: all 0.5s;
+
+}
+
+.jumbotron #button:hover{
+	background-color:rgba(2247, 247, 247, 0.4)
+}

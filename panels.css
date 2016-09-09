@@ -1,0 +1,34 @@
+.panel{
+  display: block;
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#panel1{
+  background-color: gray;
+}
+
+#panel2{
+
+    background-color: lightgray;
+}
+
+#panel3{
+
+    background-color: darkgray;
+}
+
+#panel4{
+
+    background-color: gray;
+}
+
+#footer{
+  text-align: center;
+  line-height: 150%;
+  background: rgb(237, 237, 237);
+  color: #A0A09F;
+  padding: 20px 0px;
+}
