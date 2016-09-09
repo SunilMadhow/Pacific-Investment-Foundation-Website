@@ -1,3 +1,4 @@
+/* Animations */
 @keyframes titleExpand{
 	from {width: 0px;}
 	to {width: 250px;}
@@ -8,18 +9,13 @@
 	to {width: 150px;}
 }
 
-/* THIS IS FOR TESTING WITH HEADER */
-body{
-	margin:0px;
-}
-
-/* HEADER AND LOGO */
+/* Header, Logo, Title, Menu... */
 #header{
 	display:block;
 	background-color:rgba(27, 167, 242, 1);
 	text-align:center;
 	vertical-align: middle;
-	margin: none;
+	margin: 0px;
 }
 #titleandlogo {
 	position: absolute;
@@ -57,7 +53,8 @@ body{
 	text-align: left;
 	color:white;
 	font-size:34px;
-	font-family:'Open Sans';
+	line-height: 1.25em;
+	font-family:'Open Sans', Arial;
 	overflow: hidden;
 	animation-name: titleExpand;
 	animation-delay: 0.1s;
