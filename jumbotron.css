@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.jumbotron{
+	text-align:center;
+	background-image:url('background_ocean.jpg');
+	background-repeat:no-repeat;
+	height:500px;
+}
+
+
+
+#title{
+	color:white;
+	text-shadow: 0px 2px 4px #a6a6a6;
+	font-size:75px;
+}
+
+#button{
+	color:white;
+	border:3px solid white;
+}
+
+#button:hover{
+	background-color:rgba(2247, 247, 247, 0.2)
+}
