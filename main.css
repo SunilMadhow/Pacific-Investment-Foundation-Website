@@ -8,3 +8,12 @@ table, tbody, tr, td{
 	padding: 0px;
 	border-spacing: 0;
 }
+iframe{
+	float:none;
+	margin-right: auto;
+	margin-left: auto;
+	border:none;
+	overflow: hidden;
+	width: 500px;
+	height: 210px;
+}

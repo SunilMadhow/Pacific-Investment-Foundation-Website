@@ -50,6 +50,7 @@
 //Sorry for strange indentaion... this just makes it look nicer in chrome
 //Get all links in the menu bar
 var aObj = document.getElementById('bar').getElementsByTagName('a');
+var found = false;
 //For each...
 for(i=0;i<aObj.length;++i) {
 	//Test to see f the link is in the current address
@@ -57,10 +58,14 @@ for(i=0;i<aObj.length;++i) {
 		//If it is, make that button active.
 		aObj[i].className+=' active';
   	//Our work here is done!
+		found = true;
 		break;
 	}
 }
-//If the button was found, it will now be active
+//If the button was found, it will now be active and found will be true otherwise we need to set it to home and assume the page was gotten from index.*
+if(!found){
+	aObj[0].className += ' active'; //Home button should always be first...
+}
 				</script>
 			</div>
 		</div>
@@ -112,6 +117,7 @@ for(i=0;i<aObj.length;++i) {
 	<tr><td>
 		<!--START Panel4-->
 		<div class="panel" id="panel4">
+			<iframe sandbox="allow-forms allow-same-origin allow-scripts" src="newsletter_signup.php"></iframe>
 		</div>
 		<!--END Panel4-->
 	</td></tr>
