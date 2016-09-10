@@ -25,7 +25,7 @@
         } else {
           $servername = "localhost";
           $username = "newsletter";
-          $password = "qwerty%1234!";
+          $password = "qwerty%1234!"; //TODO: Change this!  Whoops!
           $dbname = "newsletter_users";
 
           $sql_hook = new mysqli($servername, $username, $password, $dbname);
