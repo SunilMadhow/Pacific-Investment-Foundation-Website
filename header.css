@@ -1,7 +1,7 @@
 /* Animations */
 @keyframes titleExpand{
 	from {width: 0px;}
-	to {width: 250px;}
+	to {width: 350px;}
 }
 
 @keyframes logoExpand{
@@ -20,7 +20,7 @@
 #titleandlogo {
 	position: absolute;
 	left: 9px;
-    top: 24px;
+    top: 12px;
 }
 #titleandlogo #logo{
 	position: absolute;
@@ -28,9 +28,9 @@
 	background-image: url("logo_transparent.png");
 	background-repeat: no-repeat;
 	background-size: 120px 40px;
-	left: 120px;
-	top: 5px;
-  height: 50px;
+	left: 190px;
+	top: 0px;
+	height: 50px;
 
 	animation-name: logoExpand;
 	animation-delay: 0.7s;
@@ -51,9 +51,10 @@
 	float:left;
 	text-align: left;
 	color:white;
-	font-size:34px;
-	line-height: 1.25em;
-	font-family:'Open Sans', Arial;
+	font-size:40px;
+	line-height: 1.10em;
+	font-family:'Candal', Arial;
+	letter-spacing: 4px;
 	overflow: hidden;
 	animation-name: titleExpand;
 	animation-delay: 0.1s;

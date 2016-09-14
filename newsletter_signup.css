@@ -7,6 +7,10 @@
   font-family: "arial";
   color: white;
 }
+form{
+
+  text-align: center;
+}
 #email_container{
   width:100%;
   display: block;
@@ -53,7 +57,10 @@ h1 i{
 .success{
   font-size: 18px;
   font-family: 'arial', sans-serif;
+  text-align: center;
+  animation: rainbow 2s linear 0s infinite forwards;
 }
+
 @keyframes rainbow {
   0% {color: #ff0000;}
   10% {color: #ff8000;}
