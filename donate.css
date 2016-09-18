@@ -1,0 +1,28 @@
+.container{
+	background-color:white;
+	height:100% !important;
+	padding:10px;
+}
+body{
+	background-image:url("background_ocean_compressed.jpg");
+	background-repeat:no-repeat;
+}
+.donate{
+	margin:20px;
+	text-align:center;
+}
+
+.text{
+	margin:10px;
+	text-align:center;
+}
+
+.contribution{
+	font-size:30px;
+	margin:30px;
+}
+
+.donate-stuff{
+	border-bottom:1px solid grey;
+	margin:20px;
+}
